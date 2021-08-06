@@ -6,6 +6,7 @@ export namespace LoadScheduleByDate {
   export type Params = {
     initialDate: Date;
     finalDate: Date;
+    key: string;
   };
 
   export type Result = {

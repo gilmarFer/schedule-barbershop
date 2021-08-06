@@ -16,6 +16,6 @@ export class LoginAUserAbstract implements LoginAUser {
       dbPass: user.body.password,
     });
     if (!comparePass) return { isValid: false, errorName: 'Access denid' };
-    return { isValid: true, body: 'ACESSO GRANTED' };
+    return { isValid: true, body: process.env.SERVER_KEY };
   }
 }

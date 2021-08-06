@@ -12,6 +12,7 @@ export class LoadAdmConfigsAbstract implements LoadAdmConfigs {
     const isAdmAuth = this.admAuth.isAdmAuth(params.key);
     if (!isAdmAuth) return { isValid: false, errorName: 'ACCESS DENIED' };
     const admConfigs = await this.saveAdmConfigRepository.loadAdmConfig();
+    delete admConfigs.body.key;
     return { isValid: true, body: admConfigs.body };
   }
 }

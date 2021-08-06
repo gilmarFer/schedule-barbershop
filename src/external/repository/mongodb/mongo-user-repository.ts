@@ -1,7 +1,7 @@
 import { LoginAUserRepository } from '../../../adapters/data/protocols/user/login-a-user';
-import { RegisterNewUserRepository } from '../../../adapters/data/protocols/user/register-new-user';
+import { RegisterNewUserRepository } from '../../../adapters/data/protocols/criptograph/register-new-user';
 import { LoginAUser } from '../../../domain/usecases/user/login-a-user';
-import { RegisterNewUser } from '../../../domain/usecases/user/register-new-user';
+import { RegisterNewUser } from '../../../domain/usecases/admin/register-new-user';
 import { MongoHelper } from './helpers/mongo-helper';
 
 export class MongoUserRepository

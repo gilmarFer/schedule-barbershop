@@ -9,6 +9,7 @@ export namespace RegisterNewUser {
     password: string;
     barber: string;
     phone: string;
+    key: string;
   };
 
   export type Result = {

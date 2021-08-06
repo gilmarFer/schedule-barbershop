@@ -1,7 +1,7 @@
-import { LoadScheduleByDateRepository } from '../../../adapters/data/protocols/schedule/load-schedule-by-date';
+import { LoadScheduleByDateRepository } from '../../../adapters/data/protocols/admin/load-schedule-by-date';
 import { LoadScheduleByPhoneRepository } from '../../../adapters/data/protocols/schedule/load-schedule-by-phone';
 import { ScheduleACutRepository } from '../../../adapters/data/protocols/schedule/schedule-a-cut-repository';
-import { LoadScheduleByDate } from '../../../domain/usecases/schedule/load-schedules-by-date';
+import { LoadScheduleByDate } from '../../../domain/usecases/admin/load-schedules-by-date';
 import { LoadScheduleByPhone } from '../../../domain/usecases/schedule/load-schedules-by-phone';
 import { ScheduleACut } from '../../../domain/usecases/schedule//schedule-a-cut';
 import { MongoHelper } from './helpers/mongo-helper';

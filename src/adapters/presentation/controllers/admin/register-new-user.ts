@@ -1,4 +1,4 @@
-import { RegisterNewUser } from '../../../../domain/usecases/user/register-new-user';
+import { RegisterNewUser } from '../../../../domain/usecases/admin/register-new-user';
 import {
   badRequest,
   HttpRequest,
@@ -13,7 +13,7 @@ export class RegisterNewUserController implements Controller {
 
   async handle(httpRequest: HttpRequest): Promise<HttpResponse> {
     try {
-      const { name, email, password, barber, phone } = httpRequest.body;
+      const { name, email, password, barber, phone, key } = httpRequest.body;
       if (!name || !email || !password || !barber || !phone)
         return badRequest(
           new Error('Name, email, password, barber or phone are invalid'),
@@ -24,6 +24,7 @@ export class RegisterNewUserController implements Controller {
         password,
         barber,
         phone,
+        key,
       });
       if (!user.isValid) return badRequest(new Error(user.errorName));
       return ok(user.body);

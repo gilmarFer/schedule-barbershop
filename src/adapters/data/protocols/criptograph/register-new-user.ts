@@ -1,4 +1,4 @@
-import { RegisterNewUser } from '../../../../domain/usecases/user/register-new-user';
+import { RegisterNewUser } from '../../../../domain/usecases/admin/register-new-user';
 
 export interface RegisterNewUserRepository {
   registerNewUser(

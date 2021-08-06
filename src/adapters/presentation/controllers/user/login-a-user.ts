@@ -18,7 +18,7 @@ export class LoginAUserController implements Controller {
         return badRequest(new Error('Email or password are invalid'));
       const user = await this.loginAUserAbstract.login({ email, password });
       if (!user.isValid) return badRequest(new Error(user.errorName));
-      return ok(user.body);
+      return ok({ key: user.body });
     } catch (error) {
       return serverError(error.message);
     }

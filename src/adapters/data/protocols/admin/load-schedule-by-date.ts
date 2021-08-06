@@ -1,4 +1,4 @@
-import { LoadScheduleByDate } from '../../../../domain/usecases/schedule/load-schedules-by-date';
+import { LoadScheduleByDate } from '../../../../domain/usecases/admin/load-schedules-by-date';
 
 export interface LoadScheduleByDateRepository {
   loadByDate(
