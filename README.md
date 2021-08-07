@@ -5,8 +5,11 @@ Desenvolvi este sistema na intenção de demostrar meus conhecimentos embora foi
 ### Arquitetura limpa?
 Na tentativa de criar um sistema mais desacoplado possível, segundo o "Clean architecture", fiz uma divisão de  4 camadas dentro do que pra mim faz sentido, que são:
 > **Domain** - Onde ficam as Entidades e os casos de uso.
+> 
 > **Adapters** - Onde ficam as implementações abstratas e os controles
+> 
 > **External** - Lugar de biblioteca de terceiros, bando de dados...
+> 
 > **Main** - Onde tudo se junta e acontece o maior acoplamento.
 
 Dessa forma, uma vez que a base já está pronta, torna-se muito fácil trocar qualquer biblioteca de terceiros, inclusive o Express, já que o acoplamento é minimo.
