@@ -29,7 +29,8 @@ Sim, é claro, ela está disponível aqui.
 > https://schedule-barbershop.herokuapp.com/api-docs
 
 ### Contato
-Email: gilmar.aquino@live.com
-Linkedin: https://www.linkedin.com/in/fernandes-gilmar/
-
+> Email: gilmar.aquino@live.com
+>
+> Linkedin: https://www.linkedin.com/in/fernandes-gilmar/
+> 
 ###### A Deus toda Gloria
