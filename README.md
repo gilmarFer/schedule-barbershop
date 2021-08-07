@@ -28,7 +28,7 @@ Sim, é claro, ela está disponível aqui.
 > **OBS**: Ela está hospedada em um conta free da heroku, então a primeira requisição deve demorar por volta de 10 segundos. 
 > https://schedule-barbershop.herokuapp.com/api-docs
 
-### Contato
+### Contato
 Email: gilmar.aquino@live.com
 Linkedin: https://www.linkedin.com/in/fernandes-gilmar/
 
