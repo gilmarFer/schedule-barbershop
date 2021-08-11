@@ -29,7 +29,7 @@ Sim, é claro, ela está disponível aqui.
 > https://schedule-barbershop.herokuapp.com/api-docs
 
 ### Contato
-> Email: gilmar.aquino@live.com
+> Email: gilmar.fer10@gmail.com
 >
 > Linkedin: https://www.linkedin.com/in/fernandes-gilmar/
 > 
