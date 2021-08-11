@@ -33,4 +33,4 @@ Sim, é claro, ela está disponível aqui.
 >
 > Linkedin: https://www.linkedin.com/in/fernandes-gilmar/
 > 
-###### A Deus toda Gloria
+###### A Deus toda Glória
